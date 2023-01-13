@@ -1,0 +1,88 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(97, 65, 61, 0.873) 50px, rgb(162, 137, 137) 300px, rgb(104, 65, 57));
+}
+.Give-col{
+    text-shadow: 3px 6px 3px rgb(10, 9, 15);
+    text-align: center;
+    color: white;
+}
+.Btn1 {
+    background-color:rgb(195, 198, 149);
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 250px;
+    box-shadow: 4px 6px 3px rgb(90, 91, 84);
+    position: absolute;
+    left: 240px;
+    top: 150px;
+
+}
+.Btn2 {
+    background-color:rgb(195, 198, 149);
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+    width: 250px;
+    box-shadow: 4px 6px 3px rgb(90, 91, 84);
+    position: absolute;
+    right: 240px;
+    top: 150px;
+
+}
+.Btn1:hover{
+   background-color: rgb(255, 8, 0);
+   color: white;
+}
+.Btn2:hover{
+    background-color: rgb(255, 8, 0);
+   color: white;
+}
+
+
+.Colored{
+    width: 500px;
+    height: 280px;
+    text-align: center;
+    background-image: linear-gradient(
+        rgb(218, 234, 232), rgb(215, 235, 230), rgb(6, 176, 249)
+    );
+    border: none;
+    border-radius: 40px;
+    position: absolute;
+    left: 80px;
+    top: 280px;
+    box-shadow: 4px 6px 5px black;
+}
+.Colored h4{
+    color: rgb(0, 4, 255);
+}
+.Colored h4{
+    color: blue;
+    margin-top: 50px;
+}
+.Colored h2{
+    margin-top: 30px;
+}
+.Chagecolor{
+    width: 500px;
+    height: 280px;
+    text-align: center;
+    background-image: linear-gradient(
+        rgb(242, 219, 242), rgb(218, 198, 211), rgb(213, 55, 150)
+    );
+    border: none;
+    border-radius: 40px;
+    position: absolute;
+    right: 80px;
+    top: 280px;
+    box-shadow: 4px 6px 5px black;
+}
+.Chagecolor h4{
+    color: blue;
+    margin-top: 50px;
+}
+.Chagecolor h2{
+    margin-top: 30px;
+}
